@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#08080b" />
+  <meta name="description" content="Soham Methe — AI Engineer exploring machine learning, signal intelligence, computer vision, and generative AI." />
+  <title>Soham Methe — AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="global-cinematic" id="cinematic" aria-label="Full-screen scroll-controlled portrait background">
+    <canvas id="frame-canvas" aria-label="Scroll-controlled portrait animation"></canvas>
+    <div class="cinematic-shade" aria-hidden="true"></div>
+    <div class="frame-progress" aria-hidden="true"><span id="progress-line"></span></div>
+    <div class="sequence-hint" id="sequence-hint" aria-hidden="true"><span class="hint-dot"></span> SCROLL TO EXPLORE</div>
+    <div class="loading" id="loading">Preparing the experience <span></span></div>
+  </div>
+  <div class="noise" aria-hidden="true"></div>
+  <main>
+
+    <header class="site-header" id="site-header">
+      <a class="brand" href="#home" aria-label="Soham Methe home">SM<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><i></i><i></i></button>
+      <nav id="nav">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact" class="nav-contact">Let's talk <span>↗</span></a>
+      </nav>
+    </header>
+
+    <section class="intro section-wrap" id="home">
+      <div class="eyebrow reveal"><span class="status-dot"></span> AI ENGINEER · MACHINE LEARNING · GENERATIVE AI</div>
+      <h1 class="reveal">Soham<br><em>Methe.</em></h1>
+      <div class="intro-bottom reveal">
+        <p>I engineer intelligent systems and build practical AI experiences from complex ideas.</p>
+        <a class="round-link" href="#projects" aria-label="Explore projects">↓</a>
+      </div>
+      <div class="intro-index">01 <span>—</span> INTRODUCTION</div>
+    </section>
+
+    <section class="about section-wrap section-pad" id="about">
+      <div class="section-kicker reveal">01 / ABOUT</div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <h2>Curiosity drives me.<br><span>Engineering makes it real.</span></h2>
+          <p class="lead">I’m Soham Methe, an M.Tech student in Artificial Intelligence in Signal Processing at COEP Technological University.</p>
+          <p>My interests span machine learning, computer vision, natural language processing, signal processing, and generative AI. I enjoy turning technical ideas into useful applications by connecting models, data, and thoughtful software experiences.</p>
+          <a class="text-link" href="public/resume/Soham_Methe_AI_Engineer_Resume.pdf" download>Download my resume <span>↗</span></a>
+        </div>
+        <div class="portrait-card reveal">
+          <img src="public/images/soham-cinematic-portrait.png" alt="Soham Methe in cinematic crimson lighting" loading="lazy">
+          <div class="portrait-caption"><span>SOHAM METHE</span><span>AI / ML ENGINEERING</span></div>
+          <div class="portrait-glow"></div>
+        </div>
+      </div>
+      <div class="focus-grid">
+        <article class="focus-card reveal"><span>01</span><h3>Intelligent systems</h3><p>Practical AI applications built around real problems and useful workflows.</p></article>
+        <article class="focus-card reveal"><span>02</span><h3>Signal & perception</h3><p>Exploring signals, visual information, and intelligent perception systems.</p></article>
+        <article class="focus-card reveal"><span>03</span><h3>Generative AI</h3><p>LLM-powered applications, semantic search, and emerging AI workflows.</p></article>
+      </div>
+    </section>
+
+    <section class="skills section-wrap section-pad" id="skills">
+      <div class="section-kicker reveal">02 / TOOLKIT</div>
+      <div class="section-heading reveal"><h2>The tools behind<br><span>the intelligence.</span></h2><p>Technologies I use to explore, build, test, and ship ideas.</p></div>
+      <div class="skills-grid">
+        <article class="skill-panel reveal"><div class="panel-top"><span>01</span><span class="panel-symbol">⌘</span></div><h3>Programming</h3><div class="chips"><span>Python</span><span>SQL</span><span>Java</span><span>C</span></div></article>
+        <article class="skill-panel reveal"><div class="panel-top"><span>02</span><span class="panel-symbol">◉</span></div><h3>AI & machine learning</h3><div class="chips"><span>Machine Learning</span><span>Deep Learning</span><span>Generative AI</span><span>Computer Vision</span><span>NLP</span><span>Signal Processing</span></div></article>
+        <article class="skill-panel reveal"><div class="panel-top"><span>03</span><span class="panel-symbol">⌬</span></div><h3>Libraries & frameworks</h3><div class="chips"><span>Scikit-learn</span><span>PyTorch</span><span>TensorFlow</span><span>OpenCV</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span></div></article>
+        <article class="skill-panel reveal"><div class="panel-top"><span>04</span><span class="panel-symbol">▤</span></div><h3>Software & data</h3><div class="chips"><span>FastAPI</span><span>Django</span><span>REST APIs</span><span>MySQL</span><span>PostgreSQL</span><span>Git</span><span>Docker</span><span>Linux</span></div></article>
+      </div>
+    </section>
+
+    <section class="projects section-wrap section-pad" id="projects">
+      <div class="section-kicker reveal">03 / SELECTED WORK</div>
+      <div class="section-heading projects-heading reveal"><h2>Ideas, built<br><span>into systems.</span></h2><p>A selection of projects across AI, computer vision, data intelligence, and software development.</p></div>
+      <div class="project-list">
+        <article class="project-card project-feature reveal"><div class="project-visual civic-visual"><div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div><div class="visual-core">C<span>·</span></div><div class="visual-label">CIVIC INTELLIGENCE / 01</div></div><div class="project-info"><div class="project-meta"><span>01 / AI SYSTEMS</span><span>COMPUTER VISION · NLP</span></div><h3>CIVICI</h3><p>An AI-powered civic complaint concept designed to analyse multimedia evidence and support complaint classification and resolution workflows.</p><div class="tag-row"><span>Python</span><span>Computer Vision</span><span>NLP</span><span>FastAPI</span></div></div></article>
+        <article class="project-card reveal"><div class="project-visual chair-visual"><div class="chair-lines"><span></span><span></span><span></span><span></span></div><div class="visual-label">POSE / ALIGNMENT / FEEDBACK</div></div><div class="project-info"><div class="project-meta"><span>02 / COMPUTER VISION</span><span>REAL-TIME ANALYSIS</span></div><h3>AI Smart Chair</h3><p>A posture-monitoring system using body landmarks, joint angles, and sitting-alignment features to identify incorrect posture and provide alerts.</p><div class="tag-row"><span>Python</span><span>OpenCV</span><span>MediaPipe Pose</span><span>ML</span></div></div></article>
+        <article class="project-card reveal"><div class="project-visual bharat-visual"><div class="node-map"><b></b><b></b><b></b><b></b><b></b><i></i><i></i><i></i></div><div class="visual-label">SEMANTIC CONNECTIONS / 03</div></div><div class="project-info"><div class="project-meta"><span>03 / GENERATIVE AI</span><span>SEMANTIC INTELLIGENCE</span></div><h3>Bharat Ka Prashan</h3><p>A citizen-question intelligence concept for analysing, grouping, classifying, and prioritising questions using semantic techniques.</p><div class="tag-row"><span>Python</span><span>NLP</span><span>Embeddings</span><span>LLMs</span></div></div></article>
+        <article class="project-card project-feature reveal"><div class="project-visual kmeans-visual"><div class="cluster-chart"><span class="cluster c1"></span><span class="cluster c2"></span><span class="cluster c3"></span><b>×</b><b>×</b><b>×</b></div><div class="visual-label">CSV INTELLIGENCE / 04</div></div><div class="project-info"><div class="project-meta"><span>04 / DATA SCIENCE</span><span>UNSUPERVISED LEARNING</span></div><h3>CSV Intelligence <span class="new-pill">RECENT</span></h3><p>A CSV data segmentation project that applies K-Means clustering to group records by feature similarity, explore cluster distributions, and inspect patterns in structured data.</p><div class="tag-row"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>K-Means</span><span>Data Visualization</span></div></div></article>
+        <article class="project-card reveal"><div class="project-visual wildlife-visual"><div class="wildlife-rings"><span></span><span></span><span></span></div><div class="wildlife-mark">W<span>·</span>I</div><div class="visual-label">CONSERVATION INTELLIGENCE / 05</div></div><div class="project-info"><div class="project-meta"><span>05 / AI FOR CONSERVATION</span><span>WILDLIFE ANALYTICS</span></div><h3>Wildlife Population Intelligence</h3><p>An AI-focused project exploring wildlife monitoring, population analysis, and conservation decision support through intelligent data workflows.</p><div class="tag-row"><span>AI / ML</span><span>Data Analysis</span><span>Intelligent Systems</span></div></div></article>
+        <article class="project-card reveal"><div class="project-visual ml-visual"><div class="ml-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="visual-label">APPLIED MODELS / 06</div></div><div class="project-info"><div class="project-meta"><span>06 / APPLIED ML</span><span>PREDICTIVE ANALYTICS</span></div><h3>Applied Machine Learning</h3><p>A collection of experiments in fraud detection, diabetes prediction, accident survival, used-car price prediction, and music genre classification.</p><div class="tag-row"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>EDA</span></div></div></article>
+      </div>
+      <p class="project-note">Project descriptions reflect the current portfolio summary. Add verified repository links and implementation screenshots as they become available.</p>
+    </section>
+
+    <section class="experience section-wrap section-pad" id="experience">
+      <div class="section-kicker reveal">04 / EXPERIENCE & EDUCATION</div>
+      <div class="section-heading reveal"><h2>Learning by doing.<br><span>Growing with purpose.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-date">OCT 2025 — DEC 2025</div><div class="timeline-body"><div class="timeline-type">INTERNSHIP</div><h3>Machine Learning Intern</h3><h4>EduVersity</h4><p>Worked on applied machine learning tasks involving data preprocessing, exploratory analysis, model training, and evaluation.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">AUG 2025 — DEC 2025</div><div class="timeline-body"><div class="timeline-type">COMMUNITY</div><h3>Google Student Ambassador</h3><h4>Google Student Ambassadors India</h4><p>Supported technical learning and technology awareness through student activities and community engagement.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">AUG 2023 — SEP 2023</div><div class="timeline-body"><div class="timeline-type">INTERNSHIP</div><h3>Python Developer Intern</h3><h4>DreamWebies Pvt. Ltd.</h4><p>Worked on Python and Django application development and collaborated on web development tasks.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">2026 — PRESENT</div><div class="timeline-body"><div class="timeline-type">POSTGRADUATE</div><h3>M.Tech — AI in Signal Processing</h3><h4>COEP Technological University · Pune</h4><p>Exploring the intersection of artificial intelligence, machine learning, and signal processing.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">2022 — 2026</div><div class="timeline-body"><div class="timeline-type">UNDERGRADUATE</div><h3>B.Tech — Computer Engineering</h3><h4>Dr. Babasaheb Ambedkar Technological University</h4><p>CGPA: 7.00 / 10.0</p></div></article>
+      </div>
+    </section>
+
+    <section class="beyond section-wrap section-pad">
+      <div class="section-kicker reveal">05 / BEYOND THE CODE</div>
+      <div class="beyond-grid">
+        <div class="reveal"><h2>Build skills.<br><span>Share knowledge.</span></h2><p>Leadership and continuous learning are part of how I approach engineering.</p></div>
+        <div class="achievement-stack">
+          <div class="achievement reveal"><span class="achievement-icon">↗</span><div><h3>College Vice President</h3><p>Student leadership and collaboration</p></div></div>
+          <div class="achievement reveal"><span class="achievement-icon">⌘</span><div><h3>500+ LeetCode problems</h3><p>Consistent practice in problem-solving</p></div></div>
+          <div class="achievement reveal"><span class="achievement-icon">✳</span><div><h3>Innovation challenges</h3><p>Smart India Hackathon and Avishkar participation</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap section-pad" id="contact">
+      <div class="contact-glow"></div>
+      <div class="section-kicker reveal">06 / CONTACT</div>
+      <div class="contact-content reveal"><p class="eyebrow">OPEN TO IDEAS, COLLABORATION & OPPORTUNITIES</p><h2>Have a problem<br>worth <em>solving?</em></h2><a class="contact-email" href="mailto:sohammethe@gmail.com">sohammethe@gmail.com <span>↗</span></a><p class="contact-note">Interested in AI, machine learning, intelligent applications, and emerging technologies.</p><div class="social-links"><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://leetcode.com/maha1kal/" target="_blank" rel="noreferrer">LeetCode ↗</a></div></div>
+    </section>
+  </main>
+  <footer class="footer section-wrap"><a class="brand" href="#home">SM<span>.</span></a><p>Building intelligent systems, one idea at a time.</p><span>© <span id="year"></span> SOHAM METHE</span><a class="back-top" href="#cinematic" aria-label="Back to top">↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
